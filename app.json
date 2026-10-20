@@ -1,0 +1,56 @@
+import {StyleSheet} from 'react-native';
+
+const casca = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    backgroundColor: '#ecf0f1',
+    padding: 8,
+  },
+  paragraph: {
+    margin: 24,
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+
+  cx1:{
+    width:300,
+    height: 200,
+    backgroundColor:"#afcfcf",
+    alignSelf: "center",
+    borderRadius:5,
+    paddingTop:10
+  },
+  caixas:{
+    backgroundColor:"#ff0",
+    marginHorizontal:15,
+    marginVertical:5,
+    paddingHorizontal:15,
+    paddingVertical:5,
+    borderRadius:5
+  },
+  textotoal:{
+    marginLeft:2,
+    fontWeight:'bold',
+    color:"#000",
+  },
+  cxtotal:{
+    width:30,
+    height:20,
+    backgroundColor:'#fff',
+    position: 'absolute',
+    top:86,
+    left: 60,
+    borderRadius:5,
+  },
+  calculadora:{
+    position:"absolute",
+    width:30,
+    height:20,
+    top:86,
+    left: 100,
+  },
+});
+
+export default casca;

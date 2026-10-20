@@ -1,0 +1,22 @@
+import {Text, View, TextInput, TouchableOpacity } from 'react-native';
+import AntDesign from '@expo/vector-icons/AntDesign';
+import casca from './css/estilo';
+export default function App() {
+  return (
+    <View style={casca.container}>
+      <Text style={casca.paragraph}>
+       Sistema de Gestão
+      </Text>
+      <View style={casca.cx1}>
+          <TextInput style={casca.caixas} placeholder="Digite o primeiro valor"/>
+          <TextInput style={casca.caixas}placeholder="Digie o segundo valor"/>
+          <Text style ={casca.textotoal}>Total</Text>
+          <TextInput style={casca.cxtotal}/>
+          <TouchableOpacity style={casca.calculadora}>
+          <AntDesign name="calculator" size={24} color="black" />
+          </TouchableOpacity>
+      </View>
+    </View>
+  );
+}
+
